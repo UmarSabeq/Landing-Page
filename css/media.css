@@ -1,0 +1,288 @@
+@media only screen and (max-width: 1024px) {
+  .navbar-inverse .navbar-nav > li > a {
+    font-size: 15px;
+    margin: auto 5px;
+  }
+
+  .main .main-info {
+    bottom: 30px;
+  }
+
+  .numbers h2 {
+    font-size: 20px !important;
+  }
+
+  .message .row p {
+    margin: auto 20px;
+    font-size: 15px;
+  }
+
+  .message .row i {
+    font-size: 30px;
+  }
+
+  .message .img-responsive {
+    width: 400px !important;
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .navbar-inverse .navbar-nav > li > a {
+    font-size: 10px;
+    margin: 0;
+  }
+
+  .main .main-info {
+    text-align: center;
+  }
+
+  .importance .essay {
+    text-align: center !important;
+  }
+
+  .importance .img-responsive {
+    margin: 0 auto;
+  }
+
+  .when .que-img {
+    width: 200px;
+    height: 200px;
+  }
+  .when h1 {
+    font-size: 30px;
+  }
+  .when p {
+    font-size: 20px !important;
+  }
+
+  .note h3 {
+    font-size: 25px;
+    line-height: 1.5;
+  }
+
+  .elements .elements-cards {
+    height: 440rem !important;
+  }
+
+  .elements .elements-cards .card {
+    width: 22rem !important;
+    bottom: 200px !important;
+  }
+
+  audio {
+    width: 20rem;
+  }
+
+  .elements .elements-cards .card .card-text h2 {
+    font-size: 25px;
+  }
+
+  .elements .elements-cards {
+    height: 130rem !important;
+  }
+
+  .message h1 {
+    text-align: center;
+  }
+
+  .message i {
+    font-size: 50px !important;
+  }
+
+  .message .img-responsive {
+    width: auto !important;
+  }
+
+  .classic .text {
+    text-align: center;
+  }
+  .classic .img-responsive {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .note p {
+    line-height: 1.5;
+    font-size: 16px !important;
+  }
+
+  .elements .elements-cards {
+    height: 435rem !important;
+  }
+
+  .elements .elements-cards .card {
+    width: 30rem !important;
+    bottom: 250px !important;
+  }
+
+  audio {
+    width: 30rem;
+  }
+
+  .message {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+
+  .message h1 {
+    font-size: 25px;
+  }
+  .message .img-responsive {
+    width: auto;
+  }
+
+  .classic h1 {
+    font-size: 30px;
+  }
+
+  .classic .history {
+    font-size: 40px !important;
+    transform: rotate(-40deg) !important;
+    padding: 10px 50px !important;
+  }
+
+  .classic .img-responsive {
+    margin-top: 45px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .upper-bar .whatsapp a {
+    font-size: 18px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .elements .elements-cards {
+    height: 420rem !important;
+  }
+  .elements .elements-cards .card {
+    width: 27rem !important;
+    bottom: 230px !important;
+  }
+
+  audio {
+    width: 27rem;
+  }
+
+  .classic h1 {
+    font-size: 22px;
+    font-weight: bolder;
+  }
+
+  .classic .history {
+    position: relative;
+    left: 30px;
+    padding: auto 30px !important;
+  }
+
+  .classic p {
+    font-size: 18px;
+  }
+
+  .when .que-img {
+    transform: scale(0.9);
+  }
+}
+
+/* multi Item*/
+@media only screen and (max-width: 992px) {
+  .carousel .item .col-xs-12:nth-last-child(-n + 2) {
+    display: none;
+  }
+}
+
+@media all and (min-width: 768px) {
+  .carousel-showmanymoveone .carousel-inner > .active.left,
+  .carousel-showmanymoveone .carousel-inner > .prev {
+    left: -50%;
+  }
+  .carousel-showmanymoveone .carousel-inner > .active.right,
+  .carousel-showmanymoveone .carousel-inner > .next {
+    left: 50%;
+  }
+  .carousel-showmanymoveone .carousel-inner > .left,
+  .carousel-showmanymoveone .carousel-inner > .prev.right,
+  .carousel-showmanymoveone .carousel-inner > .active {
+    left: 0;
+  }
+  .carousel-showmanymoveone .carousel-inner .cloneditem-1 {
+    display: block;
+  }
+}
+
+@media all and (min-width: 768px) and (transform-3d),
+  all and (min-width: 768px) and (-webkit-transform-3d) {
+  .carousel-showmanymoveone .carousel-inner > .item.active.right,
+  .carousel-showmanymoveone .carousel-inner > .item.next {
+    -webkit-transform: translate3d(50%, 0, 0);
+    transform: translate3d(50%, 0, 0);
+    left: 0;
+  }
+  .carousel-showmanymoveone .carousel-inner > .item.active.left,
+  .carousel-showmanymoveone .carousel-inner > .item.prev {
+    -webkit-transform: translate3d(-50%, 0, 0);
+    transform: translate3d(-50%, 0, 0);
+    left: 0;
+  }
+  .carousel-showmanymoveone .carousel-inner > .item.left,
+  .carousel-showmanymoveone .carousel-inner > .item.prev.right,
+  .carousel-showmanymoveone .carousel-inner > .item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    left: 0;
+  }
+}
+
+@media all and (min-width: 992px) {
+  .carousel-showmanymoveone .carousel-inner > .active.left,
+  .carousel-showmanymoveone .carousel-inner > .prev {
+    left: -16.6%;
+  }
+  .carousel-showmanymoveone .carousel-inner > .active.right,
+  .carousel-showmanymoveone .carousel-inner > .next {
+    left: 16.6%;
+  }
+  .carousel-showmanymoveone .carousel-inner > .left,
+  .carousel-showmanymoveone .carousel-inner > .prev.right,
+  .carousel-showmanymoveone .carousel-inner > .active {
+    left: 0;
+  }
+  .carousel-showmanymoveone .carousel-inner .cloneditem-2,
+  .carousel-showmanymoveone .carousel-inner .cloneditem-3 {
+    display: block;
+  }
+}
+
+@media all and (min-width: 992px) and (transform-3d),
+  all and (min-width: 992px) and (-webkit-transform-3d) {
+  .carousel-showmanymoveone .carousel-inner > .item.active.right,
+  .carousel-showmanymoveone .carousel-inner > .item.next {
+    -webkit-transform: translate3d(16.6%, 0, 0);
+    transform: translate3d(16.6%, 0, 0);
+    left: 0;
+  }
+  .carousel-showmanymoveone .carousel-inner > .item.active.left,
+  .carousel-showmanymoveone .carousel-inner > .item.prev {
+    -webkit-transform: translate3d(-16.6%, 0, 0);
+    transform: translate3d(-16.6%, 0, 0);
+    left: 0;
+  }
+  .carousel-showmanymoveone .carousel-inner > .item.left,
+  .carousel-showmanymoveone .carousel-inner > .item.prev.right,
+  .carousel-showmanymoveone .carousel-inner > .item.active {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    left: 0;
+  }
+}
+
+/* multi Item*/

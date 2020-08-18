@@ -1,0 +1,425 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: "Cairo", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.navbar {
+  background-color: rgb(216, 77, 13);
+  font-size: 20px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff !important;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: rgb(216, 77, 13) !important;
+  font-weight: bold;
+  color: rgb(0, 0, 0) !important;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: rgb(82, 80, 80) !important;
+}
+.upper-bar {
+  padding-top: 10px;
+}
+
+.whatsapp {
+  text-align: left;
+}
+.upper-bar .whatsapp a {
+  background-color: rgb(0, 71, 4);
+  font-size: 20px;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5%;
+}
+
+.fa-2x {
+  font-size: 1.7em;
+}
+
+.upper-bar .whatsapp a:hover {
+  color: #ddd;
+}
+
+.main {
+  margin-top: 100px;
+}
+
+.main .main-info {
+  padding: 50px 0;
+}
+.main .main-info h1 {
+  color: rgb(216, 77, 13);
+}
+
+.main .main-info p {
+  font-size: 20px;
+  color: rgb(82, 78, 78);
+  margin: 30px 0;
+  line-height: 2;
+}
+
+.main .main-info button {
+  background-color: rgb(216, 77, 13);
+  color: #fff;
+  border-radius: 5%;
+  padding: 5px 10px;
+  font-size: 20px;
+}
+
+.main .main-info button:hover {
+  background-color: rgb(170, 58, 6);
+}
+
+/* multi Item*/
+
+.carousel {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.carousel-showmanymoveone .carousel-control {
+  width: 4%;
+  background-image: none;
+}
+
+.carousel-showmanymoveone .carousel-control.left {
+  margin-left: 0;
+}
+
+.carousel-showmanymoveone .carousel-control.right {
+  margin-right: 0;
+}
+
+.carousel-showmanymoveone .cloneditem-1,
+.carousel-showmanymoveone .cloneditem-2,
+.carousel-showmanymoveone .cloneditem-3 {
+  display: none;
+}
+
+.carousel .item .col-xs-12 {
+  padding: 0;
+}
+
+/* Medium Devices, Desktops */
+
+/* multi Item*/
+
+.importance {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.importance .inner-title {
+  text-align: center;
+  color: rgb(216, 77, 13);
+}
+
+.importance .img-responsive {
+  width: 585px;
+  height: 450px;
+}
+
+.importance .essay {
+  font-size: 20px;
+  line-height: 2;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+#idea {
+  padding-top: 10px;
+}
+.when {
+  top: 100px;
+  background-color: rgb(231, 231, 231);
+  margin-top: 200px;
+  margin-bottom: 150px;
+  border: 1px solid rgb(133, 121, 121);
+}
+
+.when .que-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 150px;
+}
+
+.when .when-text {
+  position: relative;
+  bottom: 100px;
+}
+.when h1 {
+  color: rgb(216, 77, 13);
+  margin-bottom: 30px;
+}
+
+.when p {
+  line-height: 1.6;
+  margin: 0 40px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.note {
+  margin-bottom: 100px;
+}
+
+.note i {
+  color: rgb(40, 87, 141);
+}
+
+.note h3 {
+  color: rgb(216, 77, 13);
+}
+
+.note .text {
+  margin-left: 200px;
+}
+
+.note p {
+  font-size: 20px;
+}
+
+#numbers {
+  padding-top: 10px;
+}
+.numbers {
+  background: linear-gradient(50deg, #1e3799, #82ccdd);
+  padding: 50px 0;
+  margin-top: 150px;
+}
+
+.numbers .title {
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.numbers h2 {
+  color: #ddd;
+  font-size: 25px;
+  line-height: 1.5;
+  margin: 30px 0;
+}
+.numbers i {
+  color: rgb(142 65 21);
+}
+
+.numbers p {
+  color: rgb(142 65 21);
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 70px;
+}
+
+.elements {
+  margin-top: 100px;
+  padding-top: 50px;
+}
+.elements h1 {
+  color: rgb(216, 77, 13);
+  margin-bottom: 270px;
+}
+
+.elements .elements-cards {
+  background-color: rgb(245, 245, 245);
+  padding-top: 50px;
+  height: 135rem;
+}
+
+.elements .elements-cards .card {
+  background-color: #fff;
+  padding-bottom: 15px;
+  margin: 0 auto;
+  width: 30rem;
+  border: 1px solid #ddd;
+  position: relative;
+  bottom: 250px;
+  margin-bottom: 50px;
+  box-shadow: -7px -7px 8px #ddd;
+}
+
+.elements .elements-cards .card .card-text {
+  padding: 10px 0;
+}
+
+.elements .elements-cards .card .card-text p {
+  font-size: 18px;
+  padding: 20px 5px;
+}
+
+.elements .elements-cards .card audio {
+  padding: 0 10px;
+}
+
+.message {
+  overflow: hidden;
+  padding-top: 50px;
+  position: relative;
+  bottom: 100px;
+}
+
+.message h1 {
+  color: rgb(216, 77, 13);
+  padding-bottom: 20px;
+}
+
+.message .row p {
+  display: inline;
+  margin: auto 20px;
+  font-size: 20px;
+}
+
+.message .row i {
+  color: rgb(216, 77, 13);
+}
+
+.message .row .alert {
+  font-size: 18px;
+  color: rgb(204, 43, 43);
+  line-height: 2;
+}
+
+.message .img-responsive {
+  width: 500px;
+  height: 600px;
+}
+
+.message .row div {
+  margin: 30px 0;
+}
+
+.message .message-text {
+  background-color: rgb(103, 100, 105);
+  color: #fff;
+  width: fit-content;
+  margin: 20px auto;
+  padding: 20px 50px;
+  text-align: center;
+}
+
+.message .last {
+  margin-top: 30px;
+}
+
+.message .last h3 {
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+#classic {
+  padding-top: 100px;
+}
+.classic {
+  background-image: url(../img/classic.jpg);
+  background-size: cover;
+  margin: 50px 0;
+  padding: 50px 0;
+}
+
+.classic .history {
+  background-color: rgb(216, 77, 13);
+  text-align: center;
+  width: fit-content;
+  padding: 10px 60px;
+  color: #fff;
+  font-size: 70px;
+  font-weight: bold;
+  transform: rotate(-35deg);
+}
+
+.classic .position {
+  position: relative;
+  bottom: 70px;
+}
+
+.classic .title {
+  color: rgb(180, 60, 4);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.classic .text {
+  font-size: 25px;
+  line-height: 1.7;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 500;
+}
+
+.classic .img-responsive {
+  position: relative;
+  bottom: 30px;
+  height: 250px;
+  box-shadow: -7px -7px 8px #ddd;
+  border: 2px solid #97991e;
+  border-radius: 4%;
+}
+
+.full {
+  width: 100%;
+}
+.gap {
+  height: 30px;
+  width: 100%;
+  clear: both;
+  display: block;
+}
+.footer {
+  background: #1a1e24;
+  height: auto;
+  padding-bottom: 30px;
+  position: relative;
+  width: 100%;
+  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #dddddd;
+  margin-top: 150px;
+}
+.footer p {
+  margin: 0;
+}
+.footer img {
+  max-width: 100%;
+}
+
+.footer a {
+  color: white;
+  font-weight: lighter;
+}
+
+.footer p {
+  color: white;
+  font-weight: lighter;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-bottom {
+  margin-top: 2em;
+  border-top: 1px solid #dddddd;
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+
+footer .fab {
+  margin-top: 50px;
+  margin-right: 20px;
+}
